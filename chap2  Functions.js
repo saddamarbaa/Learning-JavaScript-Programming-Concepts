@@ -128,3 +128,34 @@ const final = test();
 
 // result 10
 console.log();
+
+// function Return function
+const f1 = function(a) {
+    return function(b) {
+        return function(c) {
+            return a + b + c;
+        };
+    };
+};
+
+/*  r now contain function blow
+return function(b) {
+        return function(c) {
+            return a + b + c;
+        };
+    };
+*/
+const r = f1(4);
+
+/* r2 now contain function blow
+return function(c) {
+            return a + b + c;
+        };
+*/
+const r2 = r(5);
+
+// r3 now contain 10
+const r3 = r2(1);
+
+// finall result is 10
+console.log(r3);
