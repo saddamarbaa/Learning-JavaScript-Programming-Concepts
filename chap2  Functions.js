@@ -108,3 +108,23 @@ console.log(d);
 // e gets the value 120
 e = factorial(5);
 console.log(e);
+
+
+// function function fun1 Return  func2
+// function Return function
+
+const fun1 = function() {
+    const fun2 = function() {
+        return 10;
+    };
+    return fun2;
+};
+
+// call func1
+const test = fun1();
+
+//  call test which contain func2
+const final = test();
+
+// result 10
+console.log();
