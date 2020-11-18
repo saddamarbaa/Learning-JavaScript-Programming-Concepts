@@ -42,3 +42,33 @@ do {
     console.log("the number is " + k);
     k++;
 } while (k < 10);
+
+// Infinite loops are bad!
+/*
+while (true) {
+    console.log('Infinite loops are bad');
+}
+*/
+
+
+/*
+JavaScript Break and Continue
+The break statement "jumps out" of a loop.
+The continue statement "jumps over" one iteration in the loop.
+*/
+for (let x = 0; x < 15; x++) {
+    if (x === 2) {
+        console.log("time to Break");
+        continue;
+    }
+    console.log(x);
+}
+
+// The Continue Statement
+j = 10;
+while (j > 0) {
+
+    console.log(j);
+
+    j--;
+}
