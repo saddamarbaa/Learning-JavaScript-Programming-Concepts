@@ -13,7 +13,7 @@ function name(parameter1, parameter2, parameter3) {
 // create
 function sayHello() {
     console.log("Hello Dear Nice To Meet You");
-}
+};
 
 // call
 sayHello();
@@ -23,7 +23,7 @@ function greeting(name) {
     // string concatenation
     let final = "Hello " + name;
     console.log(final);
-}
+};
 
 name = "Saddam Arbaa"
 
@@ -34,7 +34,7 @@ greeting(name);
 // function to add two numbers and return the result
 function sumNumbers(num1, num2) {
     return num2 + num2;
-}
+};
 
 // call function and pass 2 numbers
 let result = sumNumbers(12, 12);
@@ -43,7 +43,7 @@ console.log(result);
 // The function returns the product of p1 and p2
 function myFunction(p1, p2) {
     return p1 * p2;
-}
+};
 
 // call myFunction
 // document.getElementById("demo").innerHTML = myFunction(4, 3);
@@ -55,7 +55,7 @@ console.log(product);
 // function to Convert Fahrenheit to Celsius
 function toCelsius(fahrenheit) {
     return (5 / 9) * (fahrenheit - 32);
-}
+};
 
 // function invokes (calls)
 temperature = toCelsius(77);
@@ -65,7 +65,7 @@ console.log("The temperature is " + temperature + " Celsius");
 The function takes one parameter, called number
 and return the square of it */
 
-const square = function(number) { return number * number }
+const square = function(number) { return number * number };
 
 // call square(x gets the value 16)
 var x = square(4)
@@ -73,7 +73,7 @@ console.log(x);
 
 // factorial of number n
 
-const fact = function fac(n) { return n < 2 ? 1 : n * fac(n - 1) }
+const fact = function fac(n) { return n < 2 ? 1 : n * fac(n - 1) };
 
 // call 
 console.log(fact(5)) // return 120
@@ -84,7 +84,7 @@ function factorial(n) {
         return 1;
     else
         return (n * factorial(n - 1));
-}
+};
 
 // declare variables
 let a, b, c, d, e;
@@ -130,7 +130,7 @@ const final = test();
 console.log();
 
 // function Return function
-const f1 = function(a) {
+const fun5 = function(a) {
     return function(b) {
         return function(c) {
             return a + b + c;
@@ -145,7 +145,7 @@ return function(b) {
         };
     };
 */
-const r = f1(4);
+const r = fun5(4);
 
 /* r2 now contain function blow
 return function(c) {
@@ -159,3 +159,19 @@ const r3 = r2(1);
 
 // finall result is 10
 console.log(r3);
+
+
+// passing function as argument to anthor function 
+
+const fun6 = function() {
+    return 1;
+};
+
+const fun7 = function(fun) {
+    return fun();
+};
+
+// function call function
+const testResult = fun7(fun6);
+// result will be one
+console.log(testResult);
