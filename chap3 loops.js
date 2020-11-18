@@ -65,10 +65,7 @@ for (let x = 0; x < 15; x++) {
 }
 
 // The Continue Statement
-j = 10;
-while (j > 0) {
-
-    console.log(j);
-
-    j--;
+for (j = 10; j > 0; j--) {
+    if (j === 4) { continue; }
+    console.log("the number is " + j);
 }
