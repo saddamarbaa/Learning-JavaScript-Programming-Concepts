@@ -175,3 +175,33 @@ const fun7 = function(fun) {
 const testResult = fun7(fun6);
 // result will be one
 console.log(testResult);
+
+// recursive function to print numbers from N to 1
+const recsvieFun = function(number) {
+    // base case
+    if (number <= 0) {
+        return;
+    }
+    console.log(number);
+    // recursive case
+    recsvieFun(number - 1);
+};
+
+// invoke the function
+recsvieFun(15);
+
+
+// recursive function to return sum of numbers from N to 1
+const sumNum = function(num) {
+    // base case
+    if (num <= 0) {
+        return num;
+    }
+    // recursive case
+    return num + sumNum(num - 1);
+};
+
+// invoke the function
+const sumfact = sumNum(5);
+// Result will be 15 in this case
+console.log(sumfact);
