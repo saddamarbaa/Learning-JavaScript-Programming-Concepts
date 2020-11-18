@@ -1,4 +1,5 @@
 // JavaScript Fundamentals
+
 // Statement
 //alert("Hello, world!");
 
@@ -10,6 +11,7 @@
 // alert("World");
 //alert("all fine now");
 //[1, 2, 3].forEach(alert);
+
 // number
 console.log(4);
 console.log(100)
@@ -45,6 +47,10 @@ message = "hello " + name; // value changed
 console.log(name);
 console.log(message)
 
+// get user input
+age = prompt("what is Your Age");
+console.log("You are " + age + " years Old");
+
 // Constants 
 /*
 const myBirthday = "1.1.1991";
@@ -58,3 +64,8 @@ console.log(myBirthday);
 console.log(true && true); // AND
 console.log(false || true); // OR
 console.log(!(false && true)); // NOT
+
+// change html element through Javscript
+// document.getElementById("someText").innerHTML = 12;
+
+// document.getElementById("someText").innerHTML = "Hello there";
