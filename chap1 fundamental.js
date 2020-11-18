@@ -1,14 +1,15 @@
 // JavaScript Fundamentals
 // Statement
-alert("Hello, world!");
+//alert("Hello, world!");
 
 /* An example with two messages.
  This is a multiline comment.
 */
+
 // alert("hello");
 // alert("World");
-alert("all fine now");
-[1, 2, 3].forEach(alert);
+//alert("all fine now");
+//[1, 2, 3].forEach(alert);
 // number
 console.log(4);
 console.log(100)
@@ -44,13 +45,16 @@ message = "hello " + name; // value changed
 console.log(name);
 console.log(message)
 
-//Constants 
+// Constants 
+/*
 const myBirthday = "1.1.1991";
 const PI = 3.14159;
 console.log(myBirthday);
+*/
 
 // JavaScript Logical Operators
 // Boolean Operators
+
 console.log(true && true); // AND
 console.log(false || true); // OR
 console.log(!(false && true)); // NOT
