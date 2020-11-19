@@ -84,9 +84,23 @@ console.log(typeof false);
 console.log(typeof z);
 console.log(typeof dear);
 
+// Complex Data types
 // The Object Data Type
 let emptyObject = {};
-let student = { "name": "Sadam", "surname": "Arba", "age": "30" };
+let student = {
+    "name": "Sadam",
+    "surname": "Arba",
+    "age": "30"
+};
 console.log(student);
 // typeof false // Returns "boolean"
 console.log(typeof student);
+typeof { name: 'saddam', age: 30 }; // Returns "object"
+
+let car = {
+    "modal": "BMW Xx",
+    "color": "Blue",
+    "doors": 5
+};
+
+console.log(car);
