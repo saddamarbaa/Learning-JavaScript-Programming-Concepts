@@ -106,3 +106,8 @@ let car = {
 console.log(car);
 
 // The Array Data Type
+// Array declaration by initializing elements
+let arr = [10, 20, 30, 40];
+let colors = ["Red", "Yellow", "Green", "Orange"];
+console.log(colors);
+console.log(arr);
