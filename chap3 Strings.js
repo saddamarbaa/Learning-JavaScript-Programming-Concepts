@@ -58,7 +58,6 @@ let fruits = "Apple, Banana,and";
 console.log(fruits.slice(7, 13)); // Banana
 console.log(fruits.slice(0, 5)); // return Apple
 
-
 // Extracting a Fixed Number of Characters from a String
 
 console.log(fruits.substr(5, 13)); // Banana
@@ -87,7 +86,6 @@ console.log(str8[2]); // Prints: return L
 
 // Splitting a String into an Array
 
-
 let names = "Ali,Adam,Jhon";
 let fruitsStr = "Apple, Banana, Mango, Orange, Papaya";
 // split by character(defult one)
@@ -98,3 +96,10 @@ let fruitsArr = fruitsStr.split(", ");
 console.log(fruitsArr[0]); // Prints: Apple
 console.log(fruitsArr[2]); // Prints: Mango
 console.log(fruitsArr[fruitsArr.length - 1]); // Prints: Papaya
+
+// Concatenating Two or More Strings
+
+let firstNamee = "Saddam";
+let lastName = "Arba";
+let fullName = firstNamee + " " + lastName;
+console.log(fullName); // Prints: Saddam Arba
