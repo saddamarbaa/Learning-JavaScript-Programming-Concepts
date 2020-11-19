@@ -33,12 +33,20 @@ let str1 = "C:\Users\Downloads";
 let str2 = "C:\\Users\\Downloads";
 console.log(str1); // Prints C:UsersDownloads
 console.log(str2); // Prints C:\Users\Downloads
-/*
 
+// Finding a String in a String
+
+fruit = "banana";
+let call = "please call My name call"
 console.log(fruit.indexOf('b')); // return 0
 console.log(fruit.indexOf('m')); // return -1
 console.log(fruit.indexOf('n')); // return 2
+console.log(call.lastIndexOf("call")); // return 20
+console.log(call.indexOf("call")); // return 7
 
+
+
+/*
 console.log(fruit.slice(2, 6)); // return nana
 console.log(fruit.slice(0, 3)); // return ban
 
