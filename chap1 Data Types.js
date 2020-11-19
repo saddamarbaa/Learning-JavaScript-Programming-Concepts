@@ -65,3 +65,12 @@ var person = { firstName: "John", lastName: "Doe", age: 50, eyeColor: "blue" };
 console.log(person);
 person = null; // Now value is null, but type is still an object
 console.log(person); // Output: null
+
+// Primitive Data
+typeof "Hello" // Returns "string"
+console.log(typeof "Hello");
+typeof 14 // Returns "number"
+typeof 3.14 // Returns "number"
+typeof true // Returns "boolean"
+typeof false // Returns "boolean"
+typeof x // Returns "undefined" (if x has no value)
