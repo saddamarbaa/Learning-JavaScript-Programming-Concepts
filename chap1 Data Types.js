@@ -99,3 +99,22 @@ let thanks = function() { return "thanks so much"; };
 // Check the type of greeting variable
 console.log(typeof thanks); // Output: function
 console.log(thanks()); // Output: Hello World!
+
+// The typeof Operator
+// Primitive Data 
+// typeof "Hello" // Returns "string"
+console.log(typeof "Hello");
+
+// typeof 14 // Returns "number"
+console.log(typeof 12);
+// typeof 3.14 // Returns "number"
+console.log(typeof 3.13);
+
+// typeof true // Returns "boolean"
+// typeof false // Returns "boolean"
+console.log(typeof true);
+console.log(typeof false);
+
+//typeof z // Returns "undefined" (if z has no value)
+console.log(typeof z);
+console.log(typeof dear);
