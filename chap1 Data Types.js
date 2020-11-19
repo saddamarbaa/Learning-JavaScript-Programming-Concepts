@@ -104,3 +104,5 @@ let car = {
 };
 
 console.log(car);
+
+// The Array Data Type
