@@ -74,12 +74,18 @@ console.log(fruit.replace("bana", "saddam")); // return saddamna
 console.log(fruit.toLowerCase()); // return banana
 console.log(fruit.toUpperCase()); // return BANANA
 
-/*
-console.log(fruit.charAt(2)); // return n
-console.log(fruit.charAt(0)); // return b
-console.log(fruit[2]); // return n
-console.log(fruit[0]); // return b
+// Accessing Individual Characters from a String
 
+let str8 = "Hello World!";
+console.log(str8.charAt()); // Prints: H
+console.log(str8.charAt(0)); // Prints: H
+console.log(str8.charAt(2)); // Prints: L
+console.log(str8.charAt(str8.length - 1)); // Prints: !
+console.log(str8.charAt(762)); // Prints nothing
+console.log(str8[0]); // Prints: H
+console.log(str8[2]); // Prints: return L
+
+/*
 let names = "Ali,Adam,Jhon";
 // split by character(defult one)
 console.log(fruit.split('')); // return [ 'b', 'a', 'n', 'a', 'n', 'a' ]
