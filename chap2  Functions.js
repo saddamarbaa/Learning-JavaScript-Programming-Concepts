@@ -205,3 +205,23 @@ const sumNum = function(num) {
 const sumfact = sumNum(5);
 // Result will be 15 in this case
 console.log(sumfact);
+
+// variable Scoping
+const globalNumber = 10;
+// the main function
+const mainFunction = function(firstNumber) {
+    // return function
+    return function(secondNumber) {
+        // return function
+        return function(thridNumber) {
+            // return the flowing
+            return firstNumber + secondNumber + thridNumber + globalNumber;
+        };
+    };
+};
+
+const firstNumber = 20;
+const firstCall = mainFunction(10);
+const secondCall = firstCall(10);
+const thridCall = secondCall(10);
+console.log(thridCall);
