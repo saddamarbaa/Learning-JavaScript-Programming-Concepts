@@ -243,7 +243,7 @@ const myFunction1 = function() {
 myFunction1()
 console.log(x1) // 1
 
-// Block Scope
+// Block Scope 
 
 /*
 const x2 = 1 
