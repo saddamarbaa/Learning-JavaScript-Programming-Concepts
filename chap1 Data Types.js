@@ -115,6 +115,19 @@ console.log(typeof 3.13);
 console.log(typeof true);
 console.log(typeof false);
 
-//typeof z // Returns "undefined" (if z has no value)
+// typeof z // Returns "undefined" (if z has no value)
 console.log(typeof z);
 console.log(typeof dear);
+
+// Numbers
+typeof 125; // Returns: "number"
+typeof 2.3; // Returns: "number"
+typeof 1.1e-5; // Returns: "number"
+typeof Infinity; // Returns: "number"
+typeof NaN; // Returns: "number". Despite being "Not-A-Number"
+console.log(typeof NaN);
+
+// Strings
+typeof ''; // Returns: "string"
+typeof 'nice to see you'; // Returns: "string"
+typeof '21'; // Returns: "string"
