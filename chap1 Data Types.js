@@ -51,3 +51,8 @@ let love = 'I\'love javscript.'; // escaping single quote with backslash
 console.log(love);
 
 // The Undefined Data Type
+let fullName; // Value is undefined, type is undefined
+console.log(fullName);
+let l; // Value is undefined, type is undefined
+let y = 23;
+console.log(l); // Output: undefined
