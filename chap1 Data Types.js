@@ -56,3 +56,6 @@ console.log(fullName);
 let l; // Value is undefined, type is undefined
 let y = 23;
 console.log(l); // Output: undefined
+console.log(y); // output: 23
+
+// The Null Data Type
