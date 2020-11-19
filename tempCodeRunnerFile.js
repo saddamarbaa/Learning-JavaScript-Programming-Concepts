@@ -1,2 +1,1 @@
-// Javscript Fundamentals
-// Functions in JavaScript 
+Apple

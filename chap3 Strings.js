@@ -45,16 +45,20 @@ console.log(call.lastIndexOf("call")); // return 20
 console.log(call.indexOf("call")); // return 7
 
 // Searching for a Pattern Inside a String
+
 let str4 = "Color red looks brighter than color blue.";
 // Case sensitive search 
 let pos1 = str4.search("color");
 console.log(pos1); // 0utputs: 30
 
+// Extracting a Substring from a String
+// The slice() Method
 
+let fruits = "Apple, Banana,and";
+console.log(fruits.slice(7, 13)); // Banana
+console.log(fruits.slice(0, 5)); // return Apple
 
 /*
-console.log(fruit.slice(2, 6)); // return nana
-console.log(fruit.slice(0, 3)); // return ban
 
 console.log(fruit.replace("bana", "saddam")); // return saddamna
 
