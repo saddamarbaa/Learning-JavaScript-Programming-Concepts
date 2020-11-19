@@ -139,3 +139,17 @@ typeof false; // Returns: "boolean"
 // Undefined
 typeof undefined; // Returns: "undefined"
 typeof emptyVarible; // Returns: "undefine
+
+// Null
+typeof Null; // Returns: "object"
+
+// Objects
+typeof { name: "Saddam", age: 30 }; // Returns: "object"
+
+// Arrays
+typeof ['a', 'b', 'c']; // Returns: "object"
+
+// Functions
+typeof
+
+function() {}; // Returns: "function"
