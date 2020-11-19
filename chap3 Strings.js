@@ -66,9 +66,10 @@ console.log(fruits.substr(0, 5)); // return Apple
 
 // Replacing the Contents of a String
 
+console.log(str4.replace("color", "ok"));
 console.log(fruit.replace("bana", "saddam")); // return saddamna
-/*
 
+/*
 console.log(fruit.toLowerCase()); // return banana
 console.log(fruit.toUpperCase()); // return BANANA
 
@@ -82,5 +83,4 @@ let names = "Ali,Adam,Jhon";
 console.log(fruit.split('')); // return [ 'b', 'a', 'n', 'a', 'n', 'a' ]
 // split by a comma
 console.log(names.split(',')); // return [ 'Ali', 'Adam', 'Jhon' ]
-*
-/
+*/
