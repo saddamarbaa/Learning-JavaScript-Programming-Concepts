@@ -58,9 +58,16 @@ let fruits = "Apple, Banana,and";
 console.log(fruits.slice(7, 13)); // Banana
 console.log(fruits.slice(0, 5)); // return Apple
 
-/*
+
+// Extracting a Fixed Number of Characters from a String
+
+console.log(fruits.substr(5, 13)); // Banana
+console.log(fruits.substr(0, 5)); // return Apple
+
+// Replacing the Contents of a String
 
 console.log(fruit.replace("bana", "saddam")); // return saddamna
+/*
 
 console.log(fruit.toLowerCase()); // return banana
 console.log(fruit.toUpperCase()); // return BANANA
@@ -75,4 +82,5 @@ let names = "Ali,Adam,Jhon";
 console.log(fruit.split('')); // return [ 'b', 'a', 'n', 'a', 'n', 'a' ]
 // split by a comma
 console.log(names.split(',')); // return [ 'Ali', 'Adam', 'Jhon' ]
-*/
+*
+/
