@@ -44,6 +44,12 @@ console.log(fruit.indexOf('n')); // return 2
 console.log(call.lastIndexOf("call")); // return 20
 console.log(call.indexOf("call")); // return 7
 
+// Searching for a Pattern Inside a String
+let str4 = "Color red looks brighter than color blue.";
+// Case sensitive search
+let pos1 = str4.search("color");
+console.log(pos1); // 0utputs: 30
+
 
 
 /*
