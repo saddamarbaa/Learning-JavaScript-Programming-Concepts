@@ -15,3 +15,6 @@ console.log(fruit.slice(2, 6)); // return nana
 console.log(fruit.slice(0, 3)); // return ban
 
 console.log(fruit.replace("bana", "saddam")); // return saddamna
+
+console.log(fruit.toLowerCase()); // return banana
+console.log(fruit.toUpperCase()); // return BANANA
