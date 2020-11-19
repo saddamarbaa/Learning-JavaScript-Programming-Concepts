@@ -22,6 +22,19 @@ console.log(sln);
 console.log(txt.length); // return 26
 console.log(fruit.length); // return 26
 
+// JavaScript Escape Sequences
+
+// \n is replaced by the newline character
+let strName = "my name is \n Saddam Arbaa.";
+console.log(strName);
+
+// \r is replaced by the carriage-return character
+let str1 = "C:\Users\Downloads";
+let str2 = "C:\\Users\\Downloads";
+console.log(str1); // Prints C:UsersDownloads
+console.log(str2); // Prints C:\Users\Downloads
+/*
+
 console.log(fruit.indexOf('b')); // return 0
 console.log(fruit.indexOf('m')); // return -1
 console.log(fruit.indexOf('n')); // return 2
@@ -44,3 +57,4 @@ let names = "Ali,Adam,Jhon";
 console.log(fruit.split('')); // return [ 'b', 'a', 'n', 'a', 'n', 'a' ]
 // split by a comma
 console.log(names.split(',')); // return [ 'Ali', 'Adam', 'Jhon' ]
+*/
