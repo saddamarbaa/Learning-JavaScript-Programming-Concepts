@@ -131,3 +131,11 @@ console.log(typeof NaN);
 typeof ''; // Returns: "string"
 typeof 'nice to see you'; // Returns: "string"
 typeof '21'; // Returns: "string"
+
+// Booleans
+typeof true; // Returns: "boolean"
+typeof false; // Returns: "boolean"
+
+// Undefined
+typeof undefined; // Returns: "undefined"
+typeof emptyVarible; // Returns: "undefine
