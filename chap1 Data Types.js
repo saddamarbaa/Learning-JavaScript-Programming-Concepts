@@ -1,6 +1,7 @@
 // Data Types in JavaScript
 
 // The Number Data Type
+
 // integer(A number without decimals)
 var num = 25;
 console.log(num);
@@ -32,6 +33,7 @@ console.log(isJavaScriptFun); // Outputs  (true)
 console.log(isFishTasty); // Outputs (false)
 
 // Boolean Expression
+
 let number1 = 10;
 let number2 = 9;
 // returns true, because 10 is higher than 9
@@ -41,6 +43,7 @@ console.log(number1 > number2);
 console.log(number1 === number2);
 
 // The String Data Type
+
 // Create a string variable
 let greet = 'Hello'; // using single quotes
 let address = '123 Batam Indonesia'; // using single quotes
@@ -94,6 +97,7 @@ let colors = ["Red", "Yellow", "Green", "Orange"];
 console.log(colors);
 console.log(arr);
 
+// The Function Data Type
 let thanks = function() { return "thanks so much"; };
 
 // Check the type of greeting variable
