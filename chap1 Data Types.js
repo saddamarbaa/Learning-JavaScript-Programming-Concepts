@@ -43,8 +43,11 @@ console.log(number1 === number2);
 // The String Data Type
 // Create a string variable
 let greet = 'Hello'; // using single quotes
+let address = '123 Batam Indonesia'; // using single quotes
 let greeting = "Hello World"; // using double quotes
 let firstName = "Sa'dd'am"; // single quote inside double quotes
 let secondName = 'Sadd"a"m'; // double quotes inside single quotes
 let love = 'I\'love javscript.'; // escaping single quote with backslash
 console.log(love);
+
+// The Undefined Data Type
