@@ -66,7 +66,7 @@ console.log(person);
 person = null; // Now value is null, but type is still an object
 console.log(person); // Output: null
 
-// Primitive Data
+// Primitive Data 
 // typeof "Hello" // Returns "string"
 console.log(typeof "Hello");
 
@@ -80,4 +80,6 @@ console.log(typeof 3.13);
 console.log(typeof true);
 console.log(typeof false);
 
-typeof x // Returns "undefined" (if x has no value)
+//typeof z // Returns "undefined" (if z has no value)
+console.log(typeof z);
+console.log(typeof dear);
