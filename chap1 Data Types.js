@@ -59,3 +59,9 @@ console.log(l); // Output: undefined
 console.log(y); // output: 23
 
 // The Null Data Type
+let test = null;
+console.log(test); // Output: null
+var person = { firstName: "John", lastName: "Doe", age: 50, eyeColor: "blue" };
+console.log(person);
+person = null; // Now value is null, but type is still an object
+console.log(person); // Output: null
