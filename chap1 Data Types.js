@@ -66,24 +66,6 @@ console.log(person);
 person = null; // Now value is null, but type is still an object
 console.log(person); // Output: null
 
-// Primitive Data 
-// typeof "Hello" // Returns "string"
-console.log(typeof "Hello");
-
-// typeof 14 // Returns "number"
-console.log(typeof 12);
-// typeof 3.14 // Returns "number"
-console.log(typeof 3.13);
-
-// typeof true // Returns "boolean"
-// typeof false // Returns "boolean"
-console.log(typeof true);
-console.log(typeof false);
-
-//typeof z // Returns "undefined" (if z has no value)
-console.log(typeof z);
-console.log(typeof dear);
-
 // Complex Data types
 // The Object Data Type
 let emptyObject = {};
@@ -111,3 +93,9 @@ let arr = [10, 20, 30, 40];
 let colors = ["Red", "Yellow", "Green", "Orange"];
 console.log(colors);
 console.log(arr);
+
+let thanks = function() { return "thanks so much"; };
+
+// Check the type of greeting variable
+console.log(typeof thanks); // Output: function
+console.log(thanks()); // Output: Hello World!
