@@ -47,3 +47,4 @@ let greeting = "Hello World"; // using double quotes
 let firstName = "Sa'dd'am"; // single quote inside double quotes
 let secondName = 'Sadd"a"m'; // double quotes inside single quotes
 let love = 'I\'love javscript.'; // escaping single quote with backslash
+console.log(love);
