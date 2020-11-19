@@ -85,3 +85,8 @@ console.log(typeof z);
 console.log(typeof dear);
 
 // The Object Data Type
+let emptyObject = {};
+let student = { "name": "Sadam", "surname": "Arba", "age": "30" };
+console.log(student);
+// typeof false // Returns "boolean"
+console.log(typeof student);
