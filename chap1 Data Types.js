@@ -54,6 +54,7 @@ let love = 'I\'love javscript.'; // escaping single quote with backslash
 console.log(love);
 
 // The Undefined Data Type
+
 let fullName; // Value is undefined, type is undefined
 console.log(fullName);
 let l; // Value is undefined, type is undefined
@@ -62,6 +63,7 @@ console.log(l); // Output: undefined
 console.log(y); // output: 23
 
 // The Null Data Type
+
 let test = null;
 console.log(test); // Output: null
 var person = { firstName: "John", lastName: "Doe", age: 50, eyeColor: "blue" };
@@ -70,7 +72,9 @@ person = null; // Now value is null, but type is still an object
 console.log(person); // Output: null
 
 // Complex Data types
+
 // The Object Data Type
+
 let emptyObject = {};
 let student = {
     "name": "Sadam",
@@ -91,6 +95,7 @@ let car = {
 console.log(car);
 
 // The Array Data Type
+
 // Array declaration by initializing elements
 let arr = [10, 20, 30, 40];
 let colors = ["Red", "Yellow", "Green", "Orange"];
@@ -98,6 +103,7 @@ console.log(colors);
 console.log(arr);
 
 // The Function Data Type
+
 let thanks = function() { return "thanks so much"; };
 
 // Check the type of greeting variable
