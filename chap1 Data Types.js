@@ -91,7 +91,6 @@ let car = {
     "color": "Blue",
     "doors": 5
 };
-
 console.log(car);
 
 // The Array Data Type
@@ -111,6 +110,7 @@ console.log(typeof thanks); // Output: function
 console.log(thanks()); // Output: Hello World!
 
 // The typeof Operator
+
 // Primitive Data 
 // typeof "Hello" // Returns "string"
 console.log(typeof "Hello");
@@ -151,6 +151,7 @@ typeof undefined; // Returns: "undefined"
 typeof emptyVarible; // Returns: "undefine
 
 // Null
+
 typeof Null; // Returns: "object"
 
 // Objects
@@ -161,5 +162,4 @@ typeof ['a', 'b', 'c']; // Returns: "object"
 
 // Functions
 typeof
-
 function() {}; // Returns: "function"
