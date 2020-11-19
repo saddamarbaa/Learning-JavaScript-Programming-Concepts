@@ -67,10 +67,17 @@ person = null; // Now value is null, but type is still an object
 console.log(person); // Output: null
 
 // Primitive Data
-typeof "Hello" // Returns "string"
+// typeof "Hello" // Returns "string"
 console.log(typeof "Hello");
-typeof 14 // Returns "number"
-typeof 3.14 // Returns "number"
-typeof true // Returns "boolean"
-typeof false // Returns "boolean"
+
+// typeof 14 // Returns "number"
+console.log(typeof 12);
+// typeof 3.14 // Returns "number"
+console.log(typeof 3.13);
+
+// typeof true // Returns "boolean"
+// typeof false // Returns "boolean"
+console.log(typeof true);
+console.log(typeof false);
+
 typeof x // Returns "undefined" (if x has no value)
