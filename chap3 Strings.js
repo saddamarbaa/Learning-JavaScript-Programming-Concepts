@@ -89,7 +89,12 @@ console.log(str8[2]); // Prints: return L
 
 
 let names = "Ali,Adam,Jhon";
+let fruitsStr = "Apple, Banana, Mango, Orange, Papaya";
 // split by character(defult one)
 console.log(fruit.split('')); // return [ 'b', 'a', 'n', 'a', 'n', 'a' ]
 // split by a comma
 console.log(names.split(',')); // return [ 'Ali', 'Adam', 'Jhon' ]
+let fruitsArr = fruitsStr.split(", ");
+console.log(fruitsArr[0]); // Prints: Apple
+console.log(fruitsArr[2]); // Prints: Mango
+console.log(fruitsArr[fruitsArr.length - 1]); // Prints: Papaya
