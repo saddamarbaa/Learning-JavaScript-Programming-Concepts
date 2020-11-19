@@ -111,7 +111,7 @@ console.log(thanks()); // Output: Hello World!
 
 // The typeof Operator
 
-// Primitive Data 
+// Primitive Data
 // typeof "Hello" // Returns "string"
 console.log(typeof "Hello");
 
@@ -151,7 +151,6 @@ typeof undefined; // Returns: "undefined"
 typeof emptyVarible; // Returns: "undefine
 
 // Null
-
 typeof Null; // Returns: "object"
 
 // Objects
@@ -161,5 +160,4 @@ typeof { name: "Saddam", age: 30 }; // Returns: "object"
 typeof ['a', 'b', 'c']; // Returns: "object"
 
 // Functions
-typeof
-function() {}; // Returns: "function"
+typeof function() {}; // Returns: "function"
