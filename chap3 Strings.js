@@ -23,3 +23,9 @@ console.log(fruit.charAt(2)); // return n
 console.log(fruit.charAt(0)); // return b
 console.log(fruit[2]); // return n
 console.log(fruit[0]); // return b
+
+let names = "Ali,Adam,Jhon";
+// split by character(defult one)
+console.log(fruit.split('')); // return [ 'b', 'a', 'n', 'a', 'n', 'a' ]
+// split by a comma
+console.log(names.split(',')); // return [ 'Ali', 'Adam', 'Jhon' ]
