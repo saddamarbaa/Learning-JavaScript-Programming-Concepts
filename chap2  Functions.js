@@ -220,8 +220,13 @@ const mainFunction = function(firstNumber) {
     };
 };
 
+// invoke the function
 const firstNumber = 20;
-const firstCall = mainFunction(10);
+// call mainFunction with 10
+const firstCall = mainFunction(firstNumber);
+// call firstCall() with 10
 const secondCall = firstCall(10);
+// call firstCall() with 10
 const thridCall = secondCall(10);
+// final Result will be 50
 console.log(thridCall);
