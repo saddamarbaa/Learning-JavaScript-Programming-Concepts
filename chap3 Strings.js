@@ -18,3 +18,8 @@ console.log(fruit.replace("bana", "saddam")); // return saddamna
 
 console.log(fruit.toLowerCase()); // return banana
 console.log(fruit.toUpperCase()); // return BANANA
+
+console.log(fruit.charAt(2)); // return n
+console.log(fruit.charAt(0)); // return b
+console.log(fruit[2]); // return n
+console.log(fruit[0]); // return b
