@@ -69,10 +69,12 @@ console.log(fruits.substr(0, 5)); // return Apple
 console.log(str4.replace("color", "ok"));
 console.log(fruit.replace("bana", "saddam")); // return saddamna
 
-/*
+// Converting a String to Uppercase or Lowercase
+
 console.log(fruit.toLowerCase()); // return banana
 console.log(fruit.toUpperCase()); // return BANANA
 
+/*
 console.log(fruit.charAt(2)); // return n
 console.log(fruit.charAt(0)); // return b
 console.log(fruit[2]); // return n
