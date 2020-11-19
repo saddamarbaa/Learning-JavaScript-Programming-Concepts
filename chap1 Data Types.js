@@ -83,3 +83,5 @@ console.log(typeof false);
 //typeof z // Returns "undefined" (if z has no value)
 console.log(typeof z);
 console.log(typeof dear);
+
+// The Object Data Type
