@@ -230,3 +230,15 @@ const secondCall = firstCall(10);
 const thridCall = secondCall(10);
 // final Result will be 50
 console.log(thridCall);
+
+
+// Function Scope
+
+const x1 = 1
+
+const myFunction1 = function() {
+    const x1 = 2
+    console.log(x1) // 2
+};
+myFunction1()
+console.log(x1) // 1
