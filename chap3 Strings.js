@@ -13,3 +13,5 @@ console.log(fruit.indexOf('n')); // return 2
 
 console.log(fruit.slice(2, 6)); // return nana
 console.log(fruit.slice(0, 3)); // return ban
+
+console.log(fruit.replace("bana", "saddam")); // return saddamna
