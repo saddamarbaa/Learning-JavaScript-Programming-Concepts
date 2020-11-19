@@ -85,10 +85,11 @@ console.log(str8.charAt(762)); // Prints nothing
 console.log(str8[0]); // Prints: H
 console.log(str8[2]); // Prints: return L
 
-/*
+// Splitting a String into an Array
+
+
 let names = "Ali,Adam,Jhon";
 // split by character(defult one)
 console.log(fruit.split('')); // return [ 'b', 'a', 'n', 'a', 'n', 'a' ]
 // split by a comma
 console.log(names.split(',')); // return [ 'Ali', 'Adam', 'Jhon' ]
-*/
