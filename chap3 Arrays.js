@@ -31,3 +31,20 @@ let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(numbers.length); // Prints: 5
 console.log(names.length); // Prints: 3
 console.log(colors.length); // Prints: 3
+
+// Looping Through Array Elements
+
+// Iterates over array elements
+for (let i = 0; i <= numbers.length - 1; i++) {
+    console.log(numbers[i]); // Print array element
+}
+
+// Iterates over array elements
+for (let number in numbers) {
+    console.log(number); // Print array element
+}
+
+// Iterates over array elements
+for (let color in colors) {
+    console.log(color); // Print array element
+}
