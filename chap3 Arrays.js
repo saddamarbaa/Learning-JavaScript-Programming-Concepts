@@ -109,7 +109,7 @@ myMumbers.forEach(function(number) {
 // JavaScript Array map() Method
 
 myOldList = [0, 1, 2, 3, 4, 5];
-// myNewList now contain [0, 10, 20, 30, 40, 50];
+// myNewList now contain [ 0, 10, 20, 30, 40, 50 ]
 myNewList = myOldList.map(function(value, index) {
     return value * 10;
 });
@@ -117,5 +117,21 @@ myNewList = myOldList.map(function(value, index) {
 myNewList.forEach(function(value, index) {
     console.log(value);
 });
-
 console.log(myNewList)
+
+// Array Recrsition
+
+myList = [1, 2, 3, 4, 5, 6];
+// Recrsive function
+let print = function(index, list) {
+    // base case
+    if (index === list.length) {
+        return
+    }
+    console.log(list[index]);
+    // Recrsive case
+    print(index + 1, list);
+};
+
+// call function
+print(0, myList);
