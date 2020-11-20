@@ -136,7 +136,7 @@ let print = function(index, list) {
 // call function
 print(0, myList);
 
-// JavaScript Array filter() Method
+// JavaScript Array filter() Method 
 
 let lettrs = ['a', 'b', 'c', 'd', 'h'];
 
