@@ -135,3 +135,15 @@ let print = function(index, list) {
 
 // call function
 print(0, myList);
+
+// JavaScript Array filter() Method
+
+let lettrs = ['a', 'b', 'c', 'd', 'h'];
+
+let myFilterList = lettrs.filter(function(value, index) {
+    return value === 'c' || value == 'h';
+});
+
+myFilterList.forEach(function(value, index) {
+    console.log(value);
+});
