@@ -48,3 +48,7 @@ for (let number in numbers) {
 for (let color in colors) {
     console.log(colors[color]); // Print array element
 }
+
+for (let mark in marks) {
+    console.log(marks[mark]);
+}
