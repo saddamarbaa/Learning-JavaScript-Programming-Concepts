@@ -1,9 +1,15 @@
 // JavaScript Objects
 
-let user = new Object(); // "object constructor" syntax
-let users = {}; // "object literal" syntax
-
 // Creating Objects
+
+// Using the JavaScript Keyword new
+let student = new Object(); // "object constructor" syntax
+student.firstName = "Jhon";
+student.lastName = "Doe";
+student.age = 34;
+student.gba = 3.5;
+
+let user = {}; // "object literal" syntax
 
 const data = { // an object
     name: "Saddam Arbaa", // by key "name" store value "Saddam Arbaa"
@@ -15,10 +21,6 @@ const data = { // an object
     },
     love: "Music"
 };
-
-// Using the JavaScript Keyword new
-
-
 console.log(data.name); // print : Saddam Arbaa
 console.log(data.age); // print :30
 console.log(data.love); // print : Music
@@ -28,16 +30,6 @@ console.log(data.organization.name); // print :Khartoum University
 console.log(data.organization.coutry); // print : Sudan
 console.log(data.organization.city); // print : Khartoum
 
-let person = {
-    name: "Ali",
-    age: 32,
-    gender: "Male",
-    displayName: function() {
-        console.log(this.name);
-    }
-};
-
-// Accessing Object's Properties
 
 let book = {
     "name": "Harry Potter and the Goblet of Fire",
@@ -45,6 +37,7 @@ let book = {
     "year": 2000
 };
 
+// Accessing Object's Properties
 // Dot notation
 console.log(book.author); // Prints: J. K. Rowling
 
