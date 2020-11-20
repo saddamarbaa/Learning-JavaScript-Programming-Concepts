@@ -13,3 +13,7 @@ console.log(fruits); // print:[ 'Apple', 'Banana', 'Mango', 'Orange', 'Papaya' ]
 console.log(colors[0]); // print: Red
 console.log(colors[1]); // print: Green
 console.log(colors[2]); // print: Blue
+
+// Using the JavaScript Keyword new
+let names = new Array("Sadam", "Adam", "Ali");
+console.log(names);
