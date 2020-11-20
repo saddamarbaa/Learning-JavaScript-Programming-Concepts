@@ -1,8 +1,8 @@
 // JavaScript Objects
 
 // Creating Objects
-
 // Using the JavaScript Keyword new
+
 let student = new Object(); // "object constructor" syntax
 student.firstName = "Jhon";
 student.lastName = "Doe";
@@ -56,3 +56,17 @@ console.log(book['name']); // Prints: Harry Potter and the Goblet of Fire
 for (stn in student) {
     console.log(stn);
 }
+
+const Math = {
+    pow: function(base, exponent) {
+        if (exponent === 0) {
+            return 1;
+        }
+        return base * Math.pow(base, exponent - 1);
+    },
+    circleArea: function(r) {
+        return 3.1415926 * Math.pow(r, 2);
+    }
+};
+
+console.log(Math.pow(2, 3)); // print: 8
