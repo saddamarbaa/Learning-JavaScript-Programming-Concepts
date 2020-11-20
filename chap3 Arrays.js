@@ -49,10 +49,20 @@ for (let color in colors) {
     console.log(colors[color]); // Print array element
 }
 
+// Iterates over array elements
 for (let mark in marks) {
-    console.log(marks[mark]);
+    console.log(marks[mark]); // Print array element
 }
 
 // Adding New Elements to an Array
-marks.push(120);
+marks.push(120); // add at the end 
 console.log(marks);
+marks.unshift(322); // add at begining
+console.log(marks);
+
+// Removing Elements from an Array
+
+let last = marks.pop(); // remove the last one
+let first = marks.shift(); // remove the last one
+console.log(last); // print:120
+console.log(first); // print:322
