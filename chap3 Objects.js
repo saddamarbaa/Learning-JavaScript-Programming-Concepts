@@ -52,3 +52,7 @@ console.log(book["year"]); // Prints: 2000
 console.log(book['name']); // Prints: Harry Potter and the Goblet of Fire
 
 // Looping Through Object's Properties
+
+for (stn in student) {
+    console.log(stn);
+}
