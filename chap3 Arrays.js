@@ -24,3 +24,10 @@ console.log(names); // print : [ 'Sadam', 'Adam', 'Ali' ]
 names[0] = "Sali";
 names[2] = "Hello";
 console.log(names); // print : [ 'Sali', 'Adam', 'Hello' ]
+
+// Getting the Length of an Array
+
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(numbers.length); // Prints: 5
+console.log(names.length); // Prints: 3
+console.log(colors.length); // Prints: 3
