@@ -8,6 +8,8 @@ student.firstName = "Jhon";
 student.lastName = "Doe";
 student.age = 34;
 student.gba = 3.5;
+student.age = 35; // JavaScript Objects are Mutable
+console.log("age is now " + student.age); // print :35
 
 let user = {}; // "object literal" syntax
 
@@ -19,7 +21,10 @@ const data = { // an object
         city: "Khartoum",
         coutry: "Sudan",
     },
-    love: "Music"
+    love: "Music",
+    getName: function() {
+        return this.name;
+    }
 };
 console.log(data.name); // print : Saddam Arbaa
 console.log(data.age); // print :30
@@ -29,7 +34,7 @@ console.log(data.organization);
 console.log(data.organization.name); // print :Khartoum University
 console.log(data.organization.coutry); // print : Sudan
 console.log(data.organization.city); // print : Khartoum
-
+console.log(data.getName()); // print : Saddam Arbaa
 
 let book = {
     "name": "Harry Potter and the Goblet of Fire",
