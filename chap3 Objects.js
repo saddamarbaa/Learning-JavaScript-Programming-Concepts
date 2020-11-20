@@ -23,6 +23,7 @@ const data = { // an object
     },
     love: "Music",
     getName: function() {
+        // The this Keyword
         return this.name;
     }
 };
@@ -49,3 +50,5 @@ console.log(book.author); // Prints: J. K. Rowling
 // Bracket notation
 console.log(book["year"]); // Prints: 2000
 console.log(book['name']); // Prints: Harry Potter and the Goblet of Fire
+
+// Looping Through Object's Properties
