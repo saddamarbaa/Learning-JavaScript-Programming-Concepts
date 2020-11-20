@@ -15,5 +15,12 @@ console.log(colors[1]); // print: Green
 console.log(colors[2]); // print: Blue
 
 // Using the JavaScript Keyword new
+
 let names = new Array("Sadam", "Adam", "Ali");
-console.log(names);
+console.log(names); // print : [ 'Sadam', 'Adam', 'Ali' ]
+
+// Changing an Array Element
+
+names[0] = "Sali";
+names[2] = "Hello";
+console.log(names); // print : [ 'Sali', 'Adam', 'Hello' ]
