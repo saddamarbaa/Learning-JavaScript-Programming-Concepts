@@ -93,3 +93,15 @@ let evenNumber = [2, 4, 6, 8, 10];
 // Creating new array by combining oddNumber and evenNumber arrays
 let fullNumbers = oddNumber.concat(evenNumber);
 console.log(fullNumbers);
+
+// JavaScript Array forEach() Method
+
+let myList = [1, 2, 3, 4, 5, 6, 7];
+myList.forEach(function(value, index) {
+    console.log(value); // print : 1,2,3,4,5,6,7
+});
+
+let myMumbers = [65, 44, 12, 4];
+myMumbers.forEach(function(number) {
+    console.log(number);
+});
