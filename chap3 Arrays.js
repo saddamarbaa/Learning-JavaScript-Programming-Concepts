@@ -105,3 +105,17 @@ let myMumbers = [65, 44, 12, 4];
 myMumbers.forEach(function(number) {
     console.log(number);
 });
+
+// JavaScript Array map() Method
+
+myOldList = [0, 1, 2, 3, 4, 5];
+// myNewList now contain [0, 10, 20, 30, 40, 50];
+myNewList = myOldList.map(function(value, index) {
+    return value * 10;
+});
+
+myNewList.forEach(function(value, index) {
+    console.log(value);
+});
+
+console.log(myNewList)
