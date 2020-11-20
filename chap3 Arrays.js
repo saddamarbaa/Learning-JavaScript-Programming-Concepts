@@ -66,3 +66,9 @@ let last = marks.pop(); // remove the last one
 let first = marks.shift(); // remove the last one
 console.log(last); // print:120
 console.log(first); // print:322
+
+// Adding or Removing Elements at Any Position
+console.log(numbers);
+let removed = numbers.splice(0, 1); // Remove the first element
+console.log(removed);
+console.log(numbers);
