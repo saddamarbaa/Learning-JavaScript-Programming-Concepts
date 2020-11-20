@@ -41,10 +41,10 @@ for (let i = 0; i <= numbers.length - 1; i++) {
 
 // Iterates over array elements
 for (let number in numbers) {
-    console.log(number); // Print array element
+    console.log(numbers[number]); // Print array element
 }
 
 // Iterates over array elements
 for (let color in colors) {
-    console.log(color); // Print array element
+    console.log(colors[color]); // Print array element
 }
