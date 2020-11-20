@@ -85,3 +85,11 @@ console.log(subarr); // Prints: [ 'Banana', 'Mango', 'Orange' ]
 console.log(fruits.slice(2)); // Prints: [ 'Mango', 'Orange', 'Papaya' ]
 console.log(fruits.slice(-2)); // Prints: [ 'Orange', 'Papaya' ]
 console.log(fruits.slice(2, -1)); // Prints: [ 'Mango', 'Orange' ]
+
+// Merging Two or More Arrays
+
+let oddNumber = [1, 3, 5, 7, 9, 11];
+let evenNumber = [2, 4, 6, 8, 10];
+// Creating new array by combining oddNumber and evenNumber arrays
+let fullNumbers = oddNumber.concat(evenNumber);
+console.log(fullNumbers);
