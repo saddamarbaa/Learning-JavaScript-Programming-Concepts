@@ -72,3 +72,8 @@ console.log(numbers);
 let removed = numbers.splice(0, 1); // Remove the first element
 console.log(removed);
 console.log(numbers);
+
+// Creating a String from an Array
+
+console.log(names.join("+")); // pirnt : Sali+Adam+Hello
+console.log(names.join(" ")); // pirnt : Sali Adam Hello
