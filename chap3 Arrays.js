@@ -52,3 +52,7 @@ for (let color in colors) {
 for (let mark in marks) {
     console.log(marks[mark]);
 }
+
+// Adding New Elements to an Array
+marks.push(120);
+console.log(marks);
