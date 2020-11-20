@@ -27,6 +27,7 @@ const data = { // an object
         return this.name;
     }
 };
+
 console.log(data.name); // print : Saddam Arbaa
 console.log(data.age); // print :30
 console.log(data.love); // print : Music
