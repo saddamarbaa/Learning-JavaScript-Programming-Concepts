@@ -77,3 +77,11 @@ console.log(numbers);
 
 console.log(names.join("+")); // pirnt : Sali+Adam+Hello
 console.log(names.join(" ")); // pirnt : Sali Adam Hello
+
+// Extracting a Portion of an Array
+fruits = ["Apple", "Banana", "Mango", "Orange", "Papaya"];
+let subarr = fruits.slice(1, 4);
+console.log(subarr); // Prints: [ 'Banana', 'Mango', 'Orange' ]
+console.log(fruits.slice(2)); // Prints: [ 'Mango', 'Orange', 'Papaya' ]
+console.log(fruits.slice(-2)); // Prints: [ 'Orange', 'Papaya' ]
+console.log(fruits.slice(2, -1)); // Prints: [ 'Mango', 'Orange' ]
