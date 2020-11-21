@@ -149,7 +149,7 @@ Marks Grade
 
 00 — — -49 F
 */
-marks = 89;
+marks = 0;
 if (marks < 0) { // Handle corner cases
     console.log("grade should be positive number");
 } else if (marks > 100) {
@@ -158,18 +158,13 @@ if (marks < 0) { // Handle corner cases
     console.log("Your Grade is A+ ");
 } else if (marks >= 80 && marks < 90) {
     console.log("Your Grade is A ");
-}
-/*
-else if (grade >= 0 && grade <= 40) {
-    console.log("You got F grade with that been said You Failed in this exam")
-} else if (grade > 40 && grade <= 50) {
-    console.log("You got D grade")
-} else if (grade > 50 && grade <= 60) {
-    console.log("You got C grade")
-} else if (grade > 60 && grade <= 75) {
-    console.log("You got B grade")
+} else if (marks >= 70 && marks < 80) {
+    console.log("Your Grade is B ");
+} else if (marks >= 60 && marks < 70) {
+    console.log("Your Grade is C ");
+} else if (marks >= 50 && marks < 60) {
+    console.log("Your Grade is D ");
 } else {
-    // in else cases the grade is between 75 and 100
-    console.log("You got A grade very Well done");
+    // in else case the grade is between 0 and 40
+    console.log("Your Grade is F with that been said You Failed in this exam.")
 }
-*/
