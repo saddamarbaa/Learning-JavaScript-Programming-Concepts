@@ -1,8 +1,8 @@
 // JavaScript Conditional Statements (Control Flows)
 
 // The if Statement
-// Syntax
 
+// Syntax
 /*
 if (condition) {
   //  block of code to be executed if the condition is true
@@ -27,6 +27,7 @@ if (name === "Sadam") {
 }
 
 // The else Statement
+
 // Syntax
 /*
 if (condition) {
@@ -64,20 +65,19 @@ if (age >= 18) {
 
 // Nested If..else statement
 
+// Syntax of Nested if else statement:
 /*
-Syntax of Nested if else statement:
-
 if(condition) {
-    //Nested if else inside the body of "if"
+    // Nested if else inside the body of "if"
     if(condition2) {
        //Statements inside the body of nested "if"
     }
     else {
-       //Statements inside the body of nested "else"
+       // Statements inside the body of nested "else"
     }
 }
 else {
-    //Statements inside the body of "else"
+    // Statements inside the body of "else"
 }
 */
 
@@ -85,40 +85,48 @@ Number1 = 10;
 Number2 = 12;
 if (Number1 != Number2) {
     console.log(Number1 + " is not equal to " + Number2);
-    //Nested if else
+    // Nested if else
     // Will only be executed if statement above (Number1 != Number2) it is true 
     if (Number1 > Number2) {
         console.log(Number1 + " is greater than " + Number2);
     } else {
         console.log(Number1 + " is less than " + Number2);
     }
-
 } else {
     console.log(Number1 + " is equal to " + Number2);
 }
 
-
 // The else if Statement
 
+// Syntax of else..if statement:
 /*
-Syntax of else..if statement:
-
 if (condition1) 
 {
-   //These statements would execute if the condition1 is true
+   // These statements would execute if the condition1 is true
 }
 else if(condition2) 
 {
-   //These statements would execute if the condition2 is true
+   // These statements would execute if the condition2 is true
 }
 else if (condition3) 
 {
-   //These statements would execute if the condition3 is true
+   // These statements would execute if the condition3 is true
 }
 .
 .
 else 
 {
-   //These statements would execute if all the conditions return false.
+   // These statements would execute if all the conditions return false.
 }
 */
+
+// update value of variable number1 and number2
+Number1 = 23;
+Number2 = 123;
+if (Number1 === Number2) {
+    console.log(Number1 + " is equal to " + Number2);
+} else if (Number1 > Number2) {
+    console.log(Number1 + " is greater than " + Number2);
+} else {
+    console.log(Number2 + " is greater than " + Number1);
+}
