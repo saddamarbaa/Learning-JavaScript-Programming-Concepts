@@ -86,6 +86,7 @@ Number2 = 12;
 if (Number1 != Number2) {
     console.log(Number1 + " is not equal to " + Number2);
     //Nested if else
+    // Will only be executed if statement above (Number1 != Number2) it is true 
     if (Number1 > Number2) {
         console.log(Number1 + " is greater than " + Number2);
     } else {
