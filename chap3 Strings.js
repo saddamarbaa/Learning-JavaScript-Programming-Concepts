@@ -1,5 +1,5 @@
 // JavaScript Strings
-// Strings (Common Methods)
+// Strings(Common Methods)
 
 // Create a string variable
 let greet = 'Hello'; // using single quotes
