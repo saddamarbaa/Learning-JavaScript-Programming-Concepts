@@ -32,7 +32,8 @@ if (name === "Sadam") {
 Syntax
 if (condition) {
   //  block of code to be executed if the condition is true
-} else {
+} 
+else {
   //  block of code to be executed if the condition is false
 }
 */
@@ -96,3 +97,29 @@ if (Number1 != Number2) {
 } else {
     console.log(Number1 + " is equal to " + Number2);
 }
+
+
+// The else if Statement
+
+/*
+Syntax of else..if statement:
+
+if (condition1) 
+{
+   //These statements would execute if the condition1 is true
+}
+else if(condition2) 
+{
+   //These statements would execute if the condition2 is true
+}
+else if (condition3) 
+{
+   //These statements would execute if the condition3 is true
+}
+.
+.
+else 
+{
+   //These statements would execute if all the conditions return false.
+}
+*/
