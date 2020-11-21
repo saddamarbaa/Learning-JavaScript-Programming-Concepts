@@ -48,3 +48,16 @@ if (name === "Sadam") {
      */
     console.log("Sorry " + name + " You are not welcome here please go back");
 }
+
+let age = 23;
+if (age >= 18) {
+    /* This statement will only execute if the
+     * above condition (age>=18) returns true
+     */
+    console.log("You are eligible for voting");
+} else {
+    /* This statement will only execute if the
+     * condition specified in the "if" returns false.
+     */
+    console.log("You are not eligible for voting");
+}
