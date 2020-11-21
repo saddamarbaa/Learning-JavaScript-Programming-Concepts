@@ -1,4 +1,4 @@
-// JavaScript Conditional Statements (Control Flows)
+// JavaScript Conditional Statements(Control Flows)
 
 // The if Statement
 
@@ -172,11 +172,14 @@ if (marks < 0) { // Handle corner cases
 // The Ternary Operator
 
 // Syntax
-// condition ? value_if_true : value_if_false
+// result = binaryCondition ? valueReturnedIfTrue : valueReturnedIfFalse;
+
 let firstNumber = 10,
-    secondNumber = 5,
+    secondNumber = 15,
     result;
-result = (firstNumber < secondNumber) ? firstNumber : secondNumber;
+// Looking at the maximum example
+//if firstNumber > secondNumber, it returns firstNumber , if not it returns secondNumber
+result = (firstNumber > secondNumber) ? firstNumber : secondNumber;
 console.log("the smallest number is : " + result);
 
 age = 19; // upade age 
