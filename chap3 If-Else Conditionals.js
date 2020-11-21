@@ -61,3 +61,37 @@ if (age >= 18) {
      */
     console.log("You are not eligible for voting");
 }
+
+// Nested If..else statement
+
+/*
+Syntax of Nested if else statement:
+
+if(condition) {
+    //Nested if else inside the body of "if"
+    if(condition2) {
+       //Statements inside the body of nested "if"
+    }
+    else {
+       //Statements inside the body of nested "else"
+    }
+}
+else {
+    //Statements inside the body of "else"
+}
+*/
+
+Number1 = 10;
+Number2 = 12;
+if (Number1 != Number2) {
+    console.log(Number1 + " is not equal to " + Number2);
+    //Nested if else
+    if (Number1 > Number2) {
+        console.log(Number1 + " is greater than " + Number2);
+    } else {
+        console.log(Number1 + " is less than " + Number2);
+    }
+
+} else {
+    console.log(Number1 + " is equal to " + Number2);
+}
