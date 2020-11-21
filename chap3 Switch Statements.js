@@ -75,6 +75,8 @@ switch (Number) {
 console.log(size);
 
 // displays the name of the month, based on the value of month, using the switch statement.
+// now.getMonth() return the number that represent this month.
+// 0=January, 1=February etc
 let monthInNumber = now.getMonth();
 // console.log(monthInNumber); // for testing
 let monthInString = ""
@@ -117,7 +119,7 @@ switch (monthInNumber) {
         break;
     default:
         monthInString = "Invalid month";
-        // not need break statement after default case I added only for readability
+        // not need break statement after default case I added only for readability.
         break;
 }
 console.log(monthInString);
