@@ -1,9 +1,9 @@
 // JavaScript Conditional Statements (Control Flows)
 
 // The if Statement
+// Syntax
 
 /*
-Syntax
 if (condition) {
   //  block of code to be executed if the condition is true
 }
@@ -27,9 +27,8 @@ if (name === "Sadam") {
 }
 
 // The else Statement
-
+// Syntax
 /*
-Syntax
 if (condition) {
   //  block of code to be executed if the condition is true
 } 
