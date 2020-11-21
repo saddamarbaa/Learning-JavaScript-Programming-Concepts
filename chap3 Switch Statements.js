@@ -45,8 +45,8 @@ switch (dayOfWeek) {
 
     default:
         console.log("Invalid day");
-        break;
         // not need break statement after default case I added only for readability
+        break;
 }
 
 // switch statement to check size
@@ -68,58 +68,56 @@ switch (Number) {
         break;
     default:
         size = "its Unknown size";
-        break;
         // not need break statement after default case I added only for readability
+        break;
 }
+
 console.log(size);
 
 // displays the name of the month, based on the value of month, using the switch statement.
-let monthInNumber = 2;
+let monthInNumber = now.getMonth();
+// console.log(monthInNumber); // for testing
 let monthInString = ""
 switch (monthInNumber) {
-    case 1:
+    case 0:
         monthInString = "January";
         break;
-    case 2:
+    case 1:
         monthInString = "February";
         break;
-    case 3:
+    case 2:
         monthInString = "March";
         break;
-    case 4:
+    case 3:
         monthInString = "April";
         break;
-    case 5:
+    case 4:
         monthInString = "May";
         break;
-    case 6:
+    case 5:
         monthInString = "June";
         break;
-    case 7:
+    case 6:
         monthInString = "July";
         break;
-    case 8:
+    case 7:
         monthInString = "August";
         break;
-    case 9:
+    case 8:
         monthInString = "September";
         break;
-    case 10:
+    case 9:
         monthInString = "October";
         break;
-    case 11:
+    case 10:
         monthInString = "November";
         break;
-    case 12:
+    case 11:
         monthInString = "December";
         break;
     default:
         monthInString = "Invalid month";
+        // not need break statement after default case I added only for readability
         break;
 }
-
-break;
-
-default:
-break;
-}
+console.log(monthInString);
