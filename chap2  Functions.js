@@ -254,3 +254,30 @@ const x2 = 1
 console.log(x2) // 1
 
 */
+
+// function to draw n starts and n is positive number
+
+const drawStars = function(n) {
+    let stars = ''
+    for (let i = 0; i < n; i++) {
+        stars = stars + " *";
+    }
+    // return the stars
+    return stars;
+}
+
+// call printStars() function with 5
+const stars = drawStars(5);
+console.log(stars); // print: * * * * *
+
+// same above function recursive implementation
+
+const recursiveDrawStars = function(n) {
+    // base case
+    if (n <= 0) {
+        return " ";
+    }
+    // recursive case
+    return '*' + drawStars(n - 1)
+}
+console.log(recursiveDrawStars(5)); // print: * * * * *
