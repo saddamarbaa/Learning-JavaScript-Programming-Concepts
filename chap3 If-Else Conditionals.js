@@ -98,7 +98,7 @@ if (Number1 != Number2) {
 
 // The else if Statement
 
-// Syntax of else..if statement:
+// Syntax 
 /*
 if (condition1) 
 {
