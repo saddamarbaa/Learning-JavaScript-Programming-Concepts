@@ -130,3 +130,46 @@ if (Number1 === Number2) {
 } else {
     console.log(Number2 + " is greater than " + Number1);
 }
+
+// student grade example
+// printing the students' grades based on their marks
+let marks = 87;
+/*
+Marks Grade
+
+90 — — -100 A+
+
+80 — — -89 A
+
+70 — — -79 B
+
+60 — — -69 C
+
+50 — — -59 D
+
+00 — — -49 F
+*/
+marks = 89;
+if (marks < 0) { // Handle corner cases
+    console.log("grade should be positive number");
+} else if (marks > 100) {
+    console.log("grade should be number between zero to 100")
+} else if (marks >= 90 && marks <= 100) {
+    console.log("Your Grade is A+ ");
+} else if (marks >= 80 && marks < 90) {
+    console.log("Your Grade is A ");
+}
+/*
+else if (grade >= 0 && grade <= 40) {
+    console.log("You got F grade with that been said You Failed in this exam")
+} else if (grade > 40 && grade <= 50) {
+    console.log("You got D grade")
+} else if (grade > 50 && grade <= 60) {
+    console.log("You got C grade")
+} else if (grade > 60 && grade <= 75) {
+    console.log("You got B grade")
+} else {
+    // in else cases the grade is between 75 and 100
+    console.log("You got A grade very Well done");
+}
+*/
