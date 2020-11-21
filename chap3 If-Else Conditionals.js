@@ -173,3 +173,12 @@ if (marks < 0) { // Handle corner cases
 
 // Syntax
 // condition ? value_if_true : value_if_false
+let firstNumber = 10,
+    secondNumber = 5,
+    result;
+result = (firstNumber < secondNumber) ? firstNumber : secondNumber;
+console.log("the smallest number is : " + result);
+
+age = 19; // upade age 
+let userType = age < 18 ? 'Child' : 'Adult';
+console.log(userType); // print: Adult
