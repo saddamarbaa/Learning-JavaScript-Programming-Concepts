@@ -133,7 +133,6 @@ if (Number1 === Number2) {
 
 // student grade example
 // printing the students' grades based on their marks
-let marks = 87;
 /*
 Marks Grade
 
@@ -147,13 +146,14 @@ Marks Grade
 
 50 — — -59 D
 
-00 — — -49 F
+00 — — -49 F 
 */
-marks = 0;
+
+let marks = 40;
 if (marks < 0) { // Handle corner cases
-    console.log("grade should be positive number");
+    console.log("Invalid Marks\ngrade should be positive number");
 } else if (marks > 100) {
-    console.log("grade should be number between zero to 100")
+    console.log("Invalid Marks\ngrade should be number between zero to 100")
 } else if (marks >= 90 && marks <= 100) {
     console.log("Your Grade is A+ ");
 } else if (marks >= 80 && marks < 90) {
@@ -168,3 +168,8 @@ if (marks < 0) { // Handle corner cases
     // in else case the grade is between 0 and 40
     console.log("Your Grade is F with that been said You Failed in this exam.")
 }
+
+// The Ternary Operator
+
+// Syntax
+// condition ? value_if_true : value_if_false
