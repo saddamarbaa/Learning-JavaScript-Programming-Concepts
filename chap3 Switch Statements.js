@@ -72,3 +72,54 @@ switch (Number) {
         // not need break statement after default case I added only for readability
 }
 console.log(size);
+
+// displays the name of the month, based on the value of month, using the switch statement.
+let monthInNumber = 2;
+let monthInString = ""
+switch (monthInNumber) {
+    case 1:
+        monthInString = "January";
+        break;
+    case 2:
+        monthInString = "February";
+        break;
+    case 3:
+        monthInString = "March";
+        break;
+    case 4:
+        monthInString = "April";
+        break;
+    case 5:
+        monthInString = "May";
+        break;
+    case 6:
+        monthInString = "June";
+        break;
+    case 7:
+        monthInString = "July";
+        break;
+    case 8:
+        monthInString = "August";
+        break;
+    case 9:
+        monthInString = "September";
+        break;
+    case 10:
+        monthInString = "October";
+        break;
+    case 11:
+        monthInString = "November";
+        break;
+    case 12:
+        monthInString = "December";
+        break;
+    default:
+        monthInString = "Invalid month";
+        break;
+}
+
+break;
+
+default:
+break;
+}
