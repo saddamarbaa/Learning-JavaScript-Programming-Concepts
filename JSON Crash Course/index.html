@@ -1,0 +1,92 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Crash Course</title>
+</head>
+
+<body>
+    <!--  the list will be generated through javscript code  -->
+    <ul id="people"></ul>
+
+    <script>
+        let person = {
+            name: "Sadam",
+            age: 30,
+            address: {
+                street: "5 Batman center",
+                city: "Batam"
+            },
+            children: ["Adam", "Hanan", "Sali"]
+
+        }
+
+        console.log(person.name);
+        console.log(person.age);
+        console.log(person.address);
+        console.log(person.address.street);
+        console.log(person.children);
+
+        // convert to JSON object
+        person = JSON.stringify(person);
+        console.log(person);
+
+        // convert JSON abject to js object
+        person = JSON.parse(person);
+        console.log(person);
+        console.log(person.name);
+        console.log(person.age);
+        console.log(person.address);
+        console.log(person.address.street);
+        console.log(person.children[0]);
+        console.log(person.children[1]);
+        console.log(person.children[2]);
+
+        // creat array of  pepole object
+
+        let people = [{
+            name: "John",
+            age: 44
+        }, {
+            name: "Adam",
+            age: 40
+        }, {
+            name: "Janny",
+            age: 26
+        }];
+
+
+        console.log(people[0]); // print: Object { name: "John", age: 44 }
+        console.log(people[0].name); // print: John
+        console.log(people[0].age); // print: 44
+
+        console.log(people[1]); // print: Object { name: "Adam", age: 40 }
+        console.log(people[1].name); // print: Adam
+        console.log(people[1].age); // print: 40
+
+        console.log(people[2]); // print: Object { name: "Janny", age: 26 }
+        console.log(people[2].name); // print: Janny
+        console.log(people[2].age); // print: 26
+
+        // loop thought array
+        for (let index = 0; index < people.length; index++) {
+            console.log(people[index]); // print each object
+            console.log(people[index].name) // print each object name
+            console.log(people[index].age); // print each object age
+        }
+
+        let outPut = "";
+
+        //  Iterate over the array and add the names to html list
+        for (let index = 0; index < people.length; index++) {
+            outPut += '<li>' + people[index].name + '</li>';
+        }
+        // add to the list
+        document.getElementById('people').innerHTML = outPut;
+        console.log(outPut);
+    </script>
+
+</body>
+
+</html>
