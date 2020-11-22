@@ -281,3 +281,36 @@ const recursiveDrawStars = function(n) {
     return '*' + drawStars(n - 1)
 }
 console.log(recursiveDrawStars(5)); // print: * * * * *
+
+
+// Recursive function to find all the number(from 1 to N) that are divisible by N
+
+const evenlyDivisible = function(num) {
+
+    // create empty array to store the numbers latter
+    let divisibleNumber = [];
+
+    // helper function to help evenlyDivisible() function  in Receive manner
+
+    const evenlyDivisibleHelper = function(num, div) {
+        // base case
+        if (div > num) {
+            return; // we are done
+        }
+        // if the number is divisible by N added to divisible Number array
+        if (num % div === 0) {
+            divisibleNumber[divisibleNumber.length] = div;
+        }
+        // Receive case
+        evenlyDivisibleHelper(num, div + 1);
+    };
+
+    // call the helper function
+    evenlyDivisibleHelper(num, 1);
+
+    // return the  divisible Number array
+    return divisibleNumber;
+}
+
+// call the function
+console.log(evenlyDivisible(24));
