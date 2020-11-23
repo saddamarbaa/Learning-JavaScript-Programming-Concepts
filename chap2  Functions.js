@@ -314,3 +314,18 @@ const evenlyDivisible = function(num) {
 
 // call the function
 console.log(evenlyDivisible(24));
+
+// Recursive function to return sum of number from 1 to N 
+// assuming N is positive number
+
+const sum = function name(num) {
+    // base case
+    if (num === 0) { return 0 }
+    // Receive case
+    return num + sum(num - 1);
+};
+
+// call the function
+console.log(sum(5)); // print : 15
+console.log(sum(4)); // print : 10
+console.log(sum(3)); // print : 6
