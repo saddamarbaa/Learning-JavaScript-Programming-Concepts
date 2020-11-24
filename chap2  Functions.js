@@ -278,10 +278,59 @@ const recursiveDrawStars = function(n) {
         return " ";
     }
     // recursive case
-    return '*' + drawStars(n - 1)
+    return '*' + drawStars(n - 1);
 }
 console.log(recursiveDrawStars(5)); // print: * * * * *
 
+// helper function to draw square n stars
+
+const squareHelper = function(n, starCount) {
+    // base case
+    if (n === 0) {
+        return " ";
+    }
+    //  draw one row n stars * * * * *
+    console.log(recursiveDrawStars(starCount));
+    // then recursive call
+    squareHelper(n - 1, starCount);
+}
+
+/* function to draw square n stars
+ * * * *
+ * * * *
+ * * * *
+ * * * *
+ */
+
+const drawSquareStars = function(n) {
+    // call helper function for help
+    return squareHelper(n, n);
+};
+
+/*
+ * * *
+ * * *
+ * * *
+ */
+console.log(drawSquareStars(3));
+
+
+/*
+ * * * *
+ * * * *
+ * * * *
+ * * * *
+ */
+console.log(drawSquareStars(4));
+
+
+/*
+ * * * * *
+ * * * * *
+ * * * * *
+ * * * * *
+ */
+console.log(drawSquareStars(5));
 
 // Recursive function to find all the number(from 1 to N) that are divisible by N
 
