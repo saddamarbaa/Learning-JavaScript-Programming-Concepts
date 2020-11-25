@@ -398,7 +398,7 @@ const revesString = function(string) {
     return revesHelper(string, string.length);
 };
 
-//  call revesString() function
+// call revesString() function
 // return ZYXWVUTSRUQPONMLKJIHGFEDCBA
 let text = revesString("ABCDEFGHIJKLMNOPQURSTUVWXYZ");
 console.log(text);
