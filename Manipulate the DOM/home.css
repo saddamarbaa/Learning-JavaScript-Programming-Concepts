@@ -1,4 +1,4 @@
-.container {
+#container {
     width: 85%;
     padding: 10px;
     margin: 10px auto;
@@ -19,6 +19,7 @@
     border: 1px solid rgb(111, 96, 244);
 }
 
-image {
-    height: 200px;
+img {
+    width: 200px;
+    height: 400px;
 }
