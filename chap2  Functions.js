@@ -378,3 +378,35 @@ const sum = function name(num) {
 console.log(sum(5)); // print : 15
 console.log(sum(4)); // print : 10
 console.log(sum(3)); // print : 6
+
+
+// Recursive function to reverse string
+// take the string to be reverse as parameter
+
+const revesString = function(string) {
+
+    // reverse helper function
+
+    const revesHelper = function(string, index) {
+        //  base case
+        if (index <= 0)
+            return '';
+        // recursive case
+        return string[index - 1] + revesHelper(string, index - 1);
+    };
+    // call revesHelper() function for help
+    return revesHelper(string, string.length);
+};
+
+//  call revesString() function
+// return ZYXWVUTSRUQPONMLKJIHGFEDCBA
+let text = revesString("ABCDEFGHIJKLMNOPQURSTUVWXYZ");
+console.log(text);
+
+// return DCBA
+text = revesString("ABCD");
+console.log(text);
+
+// return 54321
+text = revesString("12345");
+console.log(text);
