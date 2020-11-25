@@ -1,0 +1,20 @@
+.container {
+    width: 85%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid rgb(14, 218, 245);
+    ;
+    text-align: center;
+}
+
+#puppy {
+    width: 100%;
+    height: 60px;
+    border: 1px solid rgb(245, 131, 32);
+}
+
+.cute {
+    width: 100%;
+    height: 60px;
+    border: 1px solid rgb(111, 96, 244);
+}
