@@ -1,6 +1,7 @@
 // get the canvas 
 let canvas = document.getElementById("myCanvas");
 
+// draw 2d
 let context = canvas.getContext("2d");
 
 let xd = 1;
@@ -11,26 +12,50 @@ let points = [{
         y: 50,
         width: 50,
         height: 50,
-        color: "red"
+        color: 'red'
     },
     {
         x: 50,
         y: 50,
         width: 50,
         height: 50,
-        color: "blue"
+        color: 'blue'
     },
     {
         x: 100,
         y: 50,
         width: 50,
         height: 50,
-        color: "orange"
+        color: 'orange'
     }
 ];
 
-// color
-context.fillStyle = "red";
+// function to draw canvas
 
-// Fill with Rectangle(draw Rectangle)
-context.fillRect(10, 10, 50, 50);
+let draw = function() {
+
+    // call clear function
+    //context.clearReact(0, 0, canvas.width, canvas.height);
+
+    // call foreach function
+    points.forEach(function(point) {
+        // set the color
+        context.fillStyle = point.color;
+        // Fill with Rectangle(draw Rectangle)
+        context.fillRect(point.x, point.y, point.width, point.height, point.color);
+
+        // increment point.x by 1
+        point.x += xd;
+    });
+};
+
+let animate = function() {
+    // call draw function
+    draw();
+
+    //Recursive call after 10 second
+    setTimeout(animate, 10);
+};
+
+// call animate function
+animate();
