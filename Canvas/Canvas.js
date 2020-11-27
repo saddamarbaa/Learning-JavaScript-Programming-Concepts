@@ -4,6 +4,7 @@ let canvas = document.getElementById("myCanvas");
 // draw 2d
 let context = canvas.getContext("2d");
 
+// just variable to used latter
 let xd = 1;
 
 // create array of object
@@ -35,7 +36,7 @@ let points = [{
 let draw = function() {
 
     // call clear function
-    //context.clearReact(0, 0, canvas.width, canvas.height);
+    // context.clearReact(0, 0, canvas.width, canvas.height);
 
     // call foreach function
     points.forEach(function(point) {
@@ -53,8 +54,8 @@ let animate = function() {
     // call draw function
     draw();
 
-    //Recursive call after 10 second
-    setTimeout(animate, 10);
+    // Recursive call after every 10 mili second
+    window.setTimeout(animate, 10);
 };
 
 // call animate function
