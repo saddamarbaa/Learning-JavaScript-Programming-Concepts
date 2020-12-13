@@ -1,12 +1,12 @@
 // Javscript Fundamentals
-// Functions in JavaScript 
+// Functions in JavaScript
 
 /* JavaScript Function Syntax
 function name(parameter1, parameter2, parameter3) {
   // code to be executed
 }
   Seps
-  1. create  function 
+  1. create  function
   2. invokes (calls)
 */
 
@@ -75,7 +75,7 @@ console.log(x);
 
 const fact = function fac(n) { return n < 2 ? 1 : n * fac(n - 1) };
 
-// call 
+// call
 console.log(fact(5)) // return 120
 
 // Recursive function to compute factorial of number n
@@ -161,7 +161,7 @@ const r3 = r2(1);
 console.log(r3);
 
 
-// passing function as argument to anthor function 
+// passing function as argument to anthor function
 
 const fun6 = function() {
     return 1;
@@ -243,10 +243,10 @@ const myFunction1 = function() {
 myFunction1()
 console.log(x1) // 1
 
-// Block Scope 
+// Block Scope
 
 /*
-const x2 = 1 
+const x2 = 1
 {
     const x2 = 2
     console.log(x2) // 2
@@ -364,7 +364,7 @@ const evenlyDivisible = function(num) {
 // call the function
 console.log(evenlyDivisible(24));
 
-// Recursive function to return sum of number from 1 to N 
+// Recursive function to return sum of number from 1 to N
 // assuming N is positive number
 
 const sum = function name(num) {
@@ -410,3 +410,24 @@ console.log(text);
 // return 54321
 text = revesString("12345");
 console.log(text);
+
+//  function to calculate age in Days
+
+function CallDays(age) {
+    let year = 365
+    return age * year;
+}
+
+// const daynamicAge = prompt("What is Your age : ?")
+
+// document.getElementById('test').innerHTML = "Your Age In Days : " + CallDays(daynamicAge) + " Days"
+
+// function to return the full name
+
+function FullName(firstName, middleName, lastName) {
+    return firstName + " " + middleName + " " + lastName
+}
+
+// function call
+
+console.log(FullName('Saddam', 'Ali', 'Adam'))
