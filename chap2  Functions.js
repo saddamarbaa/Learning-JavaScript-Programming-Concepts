@@ -447,11 +447,15 @@ console.log(FullName('Saddam', 'Ali', 'Adam'));
 // function to conver dollar to Riyal
 // Self Invoking Functions
 
-(function convertUsdToRiyal() {
-    let amount = document.getElementById('price').innerHTML; // 100
-    let result = amount * 3.75; // 100 * 3.75 = 375
 
-    // console.log(amount + " Dollar is Worth " + result + " Riyal");
-    let messageDiv = document.getElementById('result')
-    messageDiv.innerHTML = amount + " Dollar is Worth " + result + " Riyal";
-}());
+// function to conver dollar to Riyal
+// Self Invoking Functions
+
+// (function convertUsdToRiyal() {
+//     let amount = document.getElementById('price').innerHTML; // 100
+//     let result = amount * 3.75; // 100 * 3.75 = 375
+
+//     // console.log(amount + " Dollar is Worth " + result + " Riyal");
+//     let messageDiv = document.getElementById('result')
+//     messageDiv.innerHTML = amount + " Dollar is Worth " + result + " Riyal";
+// }());
