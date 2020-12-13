@@ -414,7 +414,7 @@ console.log(text);
 //  function to calculate age in Days
 
 function CallDays(age) {
-    let year = 365
+    let year = 365;
     return age * year;
 }
 
@@ -425,9 +425,33 @@ function CallDays(age) {
 // function to return the full name
 
 function FullName(firstName, middleName, lastName) {
-    return firstName + " " + middleName + " " + lastName
+    return firstName + " " + middleName + " " + lastName;
 }
 
 // function call
 
-console.log(FullName('Saddam', 'Ali', 'Adam'))
+console.log(FullName('Saddam', 'Ali', 'Adam'));
+
+// Self Invoking Functions
+
+// Syntax
+// (function() {
+//   // body of the function
+//   })();
+
+(function SelfInvokTest() {
+    console.log("Self Invoking Functions Test");
+})();
+
+
+// function to conver dollar to Riyal
+// Self Invoking Functions
+
+(function convertUsdToRiyal() {
+    let amount = document.getElementById('price').innerHTML; // 100
+    let result = amount * 3.75; // 100 * 3.75 = 375
+
+    // console.log(amount + " Dollar is Worth " + result + " Riyal");
+    let messageDiv = document.getElementById('result')
+    messageDiv.innerHTML = amount + " Dollar is Worth " + result + " Riyal";
+}());
