@@ -14,7 +14,6 @@ University of Armenia Fall 2016
 
 https://www.youtube.com/watch?v=HXh8Xhzg5qI&list=PLkVo56yGU5PqB1bhg6mJW6kimdHdxUgcs
 
-
 CS110 Introduction to Computer Science American 
 University of Armenia Fall 2017
 
