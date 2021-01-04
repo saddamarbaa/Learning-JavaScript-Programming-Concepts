@@ -23,3 +23,30 @@ companies.forEach((company) => {
   // console.log(company);
   console.log(company.name);
 });
+
+// Filter Using Normal for loop
+
+// let canDrink = [];
+
+// for (let age = 0; age < ages.length; age++) {
+//   if (ages[age] > 21) {
+//     canDrink.push(ages[age]);
+//   }
+// }
+
+// console.log(canDrink);
+
+// filter using filter method
+
+// let canDrink = ages.filter((age) => {
+//   if (age > 21) {
+//     return true;
+//   }
+// });
+
+// console.log(canDrink);
+
+// Filter Using ES6 functionality
+
+let canDrink = ages.filter((age) => age >= 21);
+console.log(canDrink);
