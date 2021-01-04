@@ -50,3 +50,34 @@ companies.forEach((company) => {
 
 let canDrink = ages.filter((age) => age >= 21);
 console.log(canDrink);
+
+// Fillter Retail Compaines
+
+// const retailCompanies = companies.filter((company) => {
+//   if (company.category === "Retail") {
+//     return true;
+//   }
+// });
+
+console.log(companies);
+
+const retailCompanies = companies.filter(
+  (company) => company.category === "Retail"
+);
+
+console.log(retailCompanies);
+
+// Get 80s Companies
+const CompaniesOf80s = companies.filter(
+  (company) => company.start > 1980 && company.end <= 1990
+);
+
+console.log(CompaniesOf80s);
+
+// Get Companies That Lasted 10 Years Or More
+
+const CompaniesLastedTenYears = companies.filter(
+  (company) => company.end - company.start >= 10
+);
+
+console.log(CompaniesLastedTenYears);
