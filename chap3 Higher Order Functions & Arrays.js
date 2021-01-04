@@ -101,3 +101,28 @@ console.log(companyNames);
 // array of ages Square
 const agesSquare = ages.map((age) => Math.sqrt(age));
 console.log(agesSquare);
+
+// JavaScript Array sort() Method
+
+// Sort Companies by Sart year
+const sortedCompanies = companies.sort(function (c1, c2) {
+  if (c1.start > c2.start) {
+    return 1;
+  } else {
+    return -1;
+  }
+});
+
+console.log(sortedCompanies);
+
+const sortedCompanies2 = companies.sort((a, b) => (b.start > a.start ? 1 : -1));
+
+console.log(sortedCompanies2);
+
+// Sort Ages
+
+const sortedAges = ages.sort((a, b) => (a > b ? 1 : -1));
+console.log(sortedAges);
+
+const sortedAges2 = ages.sort((a, b) => a - b);
+console.log(sortedAges2);
