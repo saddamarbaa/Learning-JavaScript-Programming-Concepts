@@ -1,3 +1,7 @@
+/*
+JavaScript Higher Order Functions & Arrays
+*/
+
 const companies = [
   { name: "Company One", category: "Finance", start: 1981, end: 2004 },
   { name: "Company Two", category: "Retail", start: 1992, end: 2008 },
@@ -35,6 +39,8 @@ companies.forEach((company) => {
 // }
 
 // console.log(canDrink);
+
+// JavaScript Array filter() Method
 
 // filter using filter method
 
@@ -81,3 +87,17 @@ const CompaniesLastedTenYears = companies.filter(
 );
 
 console.log(CompaniesLastedTenYears);
+
+// JavaScript Array map() Method
+
+// Create Array Of company Names
+const companyNames = companies.map((company) => {
+  // console.log(companyNames);
+  return `${company.name} [${company.start} - ${company.end}]`;
+});
+
+console.log(companyNames);
+
+// array of ages Square
+const agesSquare = ages.map((age) => Math.sqrt(age));
+console.log(agesSquare);
