@@ -17,6 +17,7 @@ const companies = [
 const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
 
 // console.log(companies);
+
 for (let i = 0; i < companies.length; i++) {
   console.log(companies[i]);
 }
@@ -74,6 +75,7 @@ const retailCompanies = companies.filter(
 console.log(retailCompanies);
 
 // Get 80s Companies
+
 const CompaniesOf80s = companies.filter(
   (company) => company.start > 1980 && company.end <= 1990
 );
@@ -91,6 +93,7 @@ console.log(CompaniesLastedTenYears);
 // JavaScript Array map() Method
 
 // Create Array Of company Names
+
 const companyNames = companies.map((company) => {
   // console.log(companyNames);
   return `${company.name} [${company.start} - ${company.end}]`;
@@ -99,12 +102,14 @@ const companyNames = companies.map((company) => {
 console.log(companyNames);
 
 // array of ages Square
+
 const agesSquare = ages.map((age) => Math.sqrt(age));
 console.log(agesSquare);
 
 // JavaScript Array sort() Method
 
 // Sort Companies by Sart year
+
 const sortedCompanies = companies.sort(function (c1, c2) {
   if (c1.start > c2.start) {
     return 1;
@@ -152,6 +157,7 @@ let ageSum3 = ages.reduce((total, age) => total + age, 0);
 console.log(ageSum2);
 
 // Get Total Years For all compnies
+
 let totalYears = companies.reduce(function (total, company) {
   return total + company.end - company.start;
 }, 0);
@@ -164,3 +170,13 @@ let totalYears2 = companies.reduce(
 );
 
 console.log(totalYears2);
+
+// Combine Methods
+
+const combine = ages
+  .map((age) => age * 2)
+  .filter((age) => age >= 40)
+  .sort((a, b) => a - b)
+  .reduce((a, b) => a + b, 0);
+
+console.log(combine);
