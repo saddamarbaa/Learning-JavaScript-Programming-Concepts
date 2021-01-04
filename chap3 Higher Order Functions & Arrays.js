@@ -126,3 +126,41 @@ console.log(sortedAges);
 
 const sortedAges2 = ages.sort((a, b) => a - b);
 console.log(sortedAges2);
+
+// JavaScript Array reduce() Method
+
+// Sum All the number in array with for loop
+
+let ageSum = 0;
+for (let i = 0; i < ages.length; i++) {
+  ageSum += ages[i];
+}
+console.log(ageSum);
+
+// Sum All the number in array  with reduce method
+
+let ageSum2 = ages.reduce(function (total, age) {
+  return total + age;
+}, 0);
+
+console.log(ageSum2);
+
+// Sum All the number in array  with reduce method and Arrow Function
+
+let ageSum3 = ages.reduce((total, age) => total + age, 0);
+
+console.log(ageSum2);
+
+// Get Total Years For all compnies
+let totalYears = companies.reduce(function (total, company) {
+  return total + company.end - company.start;
+}, 0);
+
+console.log(totalYears);
+
+let totalYears2 = companies.reduce(
+  (total, company) => total + company.end - company.start,
+  0
+);
+
+console.log(totalYears2);
